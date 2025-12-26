@@ -9,7 +9,7 @@ at its simplest, git is version control. a "commit" is essentially when you make
 
 ## the essentials
 like i said, there are really only a tiny few commands you NEED to know:
-- `git clone [repository]`. this is when a project exists on github and you want to copy it to your local machine. there are two main ways to clone:
+- `git clone [repository]`: this is when a project exists on github and you want to copy it to your local machine. there are two main ways to clone:
     - **over https**: `git clone https://github.com/[OWNER]/[REPOSITORY].git`
     - **over ssh (recommended)**: `git clone git@github.com:[OWNER]/[REPOSITORY].git`
 i recommend ssh because it's more secure and also slightly faster, but you will also have to set up ssh keys for this. ultimately, https vs ssh really doesn't have much of a difference.  
