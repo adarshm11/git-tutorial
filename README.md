@@ -24,7 +24,7 @@ that's it! everything else with git is a nice to have. so now let's see how to a
 
 ## testing it out on this repository
 1. we first need to clone the repository. for simplicity let's assume you don't have ssh keys set up, so we can use https. to clone this repository: `git clone https://github.com/adarshm11/git-tutorial.git`
-2. once we have cloned, we can open up the repo in our vs code and open `main.js`. there we'll see a simple program that loops five times and prints hello + the iteration number five times. we want to make a change to this, but it's probably best to do this on our own branch. to create a new branch called "fix-loop": `git checkout -b fix-loop`. 
+2. once we have cloned, we can open up the repo in our vs code and open `main.js`. there we'll see a simple program that loops five times and prints hello + the iteration number five times. we want to make a change to this, but it's probably best to do this on our own branch. let's create a new branch called "[your name]/fix-loop". for example, mine would be `git checkout -b adarsh/fix-loop`. 
 3. now that we're on our own branch, we can make our change. let's modify the loop to iterate 10 times instead of 5 by changing the while loop condition to be `while (i < 10)`. 
 4. now that we made a change, we need to commit it. to make sure that our change was saved, let's run `git status`. we should see that `main.js` shows up as a changed file, since we just made the change to the while loop condition. if it doesn't show up, make sure you saved `main.js` after making the change.
 5. now we need to stage `main.js` for a commit. run `git add .` to stage it.
