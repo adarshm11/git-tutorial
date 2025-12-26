@@ -30,8 +30,8 @@ that's it! everything else with git is a nice to have. so now let's see how to a
 5. now we need to stage `main.js` for a commit. run `git add .` to stage it.
 6. after staging the change, let's run `git status` again to make sure our change was successfully staged. `main.js` should now show up under the label "Changes to be committed". 
 7. now we're ready to commit! let's make our commit message insightful: `git commit -m "modify loop to run 10 times"`. 
-8. everything's ready to go, so we can push now. since this is a new branch, running `git push` won't work; we'll have to specify that we're creating a new branch on github. this is simple, we can just use the following command: `git push -u fix-loop`. the `-u` flag specifies that we're creating a new upstream branch (upstream meaning on github). 
-9. the final thing we can try is pulling our changes to a different branch. let's go back to the main branch: `git checkout main`. now we can pull our changes from the other branch: `git pull origin fix-loop`. we should now see that our code shows the updated loop with 10 iterations, even though we're on the main branch. 
+8. everything's ready to go, so we can push now. since this is a new branch, running `git push` won't work; we'll have to specify that we're creating a new branch on github. this is simple, we can just use the following command: `git push -u [your name]/fix-loop`. the `-u` flag specifies that we're creating a new upstream branch (upstream meaning on github). 
+9. the final thing we can try is pulling our changes to a different branch. let's go back to the main branch: `git checkout main`. now we can pull our changes from the other branch: `git pull origin [your name]/fix-loop`. we should now see that our code shows the updated loop with 10 iterations, even though we're on the main branch. 
 
 and that's all!
 
